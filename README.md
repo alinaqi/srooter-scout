@@ -2,7 +2,7 @@
 
 `srooter-scout` is a free, standalone open-source CLI tool that analyzes your local AI coding-agent history (Claude Code, srooter-agent, aider) and hardware to show you where you're wasting tokens and what you can optimize.
 
-Developed as a companion tool for the [srooter](https://github.com/alinaqi/srooter) AI gateway.
+Developed as a companion tool for the [srooter](https://www.srooter.ai) AI gateway.
 
 ---
 
@@ -11,6 +11,8 @@ Developed as a companion tool for the [srooter](https://github.com/alinaqi/sroot
 1. **Usage & Inefficiency Audit:** Scan local agent logs (privacy-safe, metadata-only) to detect token usage, redundant reads, overpaying on trivial tasks, and model distribution.
 2. **Local Model Recommendation:** Assess your local CPU, RAM, and GPU (Nvidia CUDA, Apple Silicon Metal, AMD ROCm) and recommend the best Ollama-compatible local models to run.
 3. **srooter Cost Projection:** Model how much srooter's gateway-based routing (quality x speed x cost) would slash your API bill at equal task quality (SWE-bench verified).
+
+👉 **Ready to slash your token costs?** Get started with [srooter.ai](https://www.srooter.ai) to route your frontier agent tasks to cheap models automatically.
 
 ---
 
@@ -148,6 +150,11 @@ Recommendations:
 - **Local Scan:** Your history files are parsed locally on your machine and never leave your workstation.
 
 ---
+
+## Related
+
+- **[srooter](https://www.srooter.ai)** — The AI model gateway that powers this audit's routing projections. Transparent governance: budgets, policies, routing, council review, audit — invisible to developers.
+- **[srooter (GitHub)](https://github.com/alinaqi/srooter)** — Source code for the srooter gateway (closed source, commercial).
 
 ## License
 
